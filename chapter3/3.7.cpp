@@ -10,7 +10,7 @@ int main()
     long code;
     cin >> code;
     cout << "\aYou entered " << code << "...\n";
-    cout << "a\Code verified! Proceed with Plan Z3!\n";
+    cout << "\aCode verified! Proceed with Plan Z3!\n";
 
     //int l\u00F6rper;
     //cout << "Let them eat g\u00E2teau.\n";

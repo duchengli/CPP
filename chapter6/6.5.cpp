@@ -37,7 +37,7 @@ int main()
         int count = 0;
         for (int j = 0; j < i; j++)
         {
-            if (naaq[i] > you)
+            if (naaq[j] > you)
             {
                 ++count;
             }

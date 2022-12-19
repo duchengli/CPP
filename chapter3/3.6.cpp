@@ -16,7 +16,7 @@ int main()
 
     cout << "Displaying char ch using cout.put(ch): ";
     cout.put(ch);
-    cout.put('I');
+    cout.put('!');
     cout << endl << "Done" << endl;
 
     return 0;

@@ -24,7 +24,7 @@ int main()
     sam = sam - 1;
     sue = sue - 1;
     cout << "Sam has " <<sam << " dollars and Sue has " << sue;
-    cout << " dollars deposited.\nLucky Sam!" << endl;
+    cout << " dollars deposited.\nLucky Sue!" << endl;
 
     return 0;
 }
