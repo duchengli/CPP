@@ -1,5 +1,5 @@
 #include <iostream>
-//#include <cmath>
+// #include <cmath>
 #include <math.h>
 
 int main()
