@@ -31,5 +31,5 @@ int main()
         cout << guest[i].name << "'s price is " << guest[i].price << endl;
     }
 
-        return 0;
+    return 0;
 }

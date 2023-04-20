@@ -22,5 +22,6 @@ int main()
     cout << "Length of string in charr after input: " << strlen(charr) << endl;
     cout << "Length of string in str after input: " << str.size() << endl;
 
+    cout << R"(Jim "King" Tutt uses "\n" instead of endl)" << '\n'; // c++11新增的原始字符串
     return 0;
 }
