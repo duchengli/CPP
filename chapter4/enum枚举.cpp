@@ -23,7 +23,7 @@ int main()
     using namespace std;
     week wk;
     wk = SUNDAY;
-    cout << wk;
+    cout << wk << endl;
 
     return 0;
 }
