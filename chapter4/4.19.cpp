@@ -30,11 +30,9 @@ int main()
     cout << sizeof(pw) << " = size of pw pointer\n";
 
     cout << endl;
-    cout << endl;
     short tell[10];
     cout << tell << endl;
     cout << tell + 1 << endl;
-
     cout << &tell << endl;
     cout << &tell + 1 << endl;
 
