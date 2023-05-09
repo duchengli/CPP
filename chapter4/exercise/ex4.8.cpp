@@ -10,20 +10,21 @@ struct William
 int main()
 {
     using namespace std;
-    William example;
+    William *example;
+    example = new William;
 
     cout << "Please enter your pizza's information: " << endl;
     cout << "Brand: ";
-    cin.getline(example.brand, 20);
+    cin.getline(example->brand, 20);
     cout << "Diameter: ";
-    cin >> example.diameter;
+    cin >> example->diameter;
     cout << "Weight: ";
-    cin >> example.weight;
+    cin >> example->weight;
 
     cout << "So the following is your pizza's information:" << endl;
-    cout << "Brand: " << example.brand << ".\n";
-    cout << "Diameter: " << example.diameter << "cm.\n";
-    cout << "Weight: " << example.weight << "kg.\n";
+    cout << "Brand: " << example->brand << ".\n";
+    cout << "Diameter: " << example->diameter << "cm.\n";
+    cout << "Weight: " << example->weight << "kg.\n";
 
     return 0;
 }
