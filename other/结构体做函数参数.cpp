@@ -12,24 +12,24 @@ struct student
 void printStudent(student stu)
 {
     stu.age = 28;
-    cout << "子函数中 姓名：" << stu.name << " 年龄：" << stu.age << " 分数：" << stu.score << endl;
+    cout << "in printStudent: " << stu.name << " age: " << stu.age << " score: " << stu.score << endl;
 }
 
 void printStudent2(student *stu)
 {
     stu->age = 28;
-    cout << "子函数中 姓名：" << stu->name << " 年龄：" << stu->age << " 分数：" << stu->score << endl;
+    cout << "in printStudent2: " << stu->name << " age: " << stu->age << " score: " << stu->score << endl;
 }
 
 int main()
 {
-    student stu = {"张三", 18, 100};
+    student stu = {"duchengli", 18, 100};
     printStudent(stu);
-    cout << "主函数中 姓名：" << stu.name << " 年龄：" << stu.age << " 分数：" << stu.score << endl;
+    cout << "in main name: " << stu.name << " age: " << stu.age << " score: " << stu.score << endl;
     cout << endl;
 
-
     printStudent2(&stu);
-    cout << "主函数中 姓名：" << stu.name << " 年龄：" << stu.age << " 分数：" << stu.score << endl;
+    cout << "in main name: " << stu.name << " age: " << stu.age << " score: " << stu.score << endl;
 
+    return 0;
 }
